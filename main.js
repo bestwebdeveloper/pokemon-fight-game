@@ -104,7 +104,7 @@ class Pokemon {
         src="${this.getImageLink()}"
       >
         <div class="details">
-          <h2 class="name">${name}</h2>
+          <h2 class="name">${this.name}</h2>
           <div class="hp">
             <div class="bar">
               <div class="health js-health-progressbar" style="width: 100%;"></div>
